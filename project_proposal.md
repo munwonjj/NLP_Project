@@ -1,35 +1,47 @@
-# Project Proposal - SouthPark(animated sitcom) Recommendation
+# NLP Project Proposal - Exploring Hotel Reviews
 
 ### Question/Need:
 
-These days, there are bunch of movies or tv series there are out there to watch, yet viewers have a hard time selecting what they should watch. Rather than having
-to watch every episodes or seasons there are out there in the tv show, it would be best if they could get a simple recommendation or know beforehand what the episode
-is about.
+The goal of this project is to build  NLP model(incorporating Topic Modeling and Recommendation System) that can effectively help customer be able to look for
+hotels of high quality 
+This project also provides good business impact as it can help hotel business industries what they should be looking to imporove or watch out for based on
+various comments by customers.
 
-The goal of this project is to build  NLP model(incorporating Topic Modeling and Recommendation System) that can help viewers know what topic each
-episode features throughout several seasons.
 
 ### Data Description:
 
-The dataset used in this project was from the following github link: [Southpark Dataset](https://github.com/BobAdamsEE/SouthParkData). There are total of 70,896
-observations where each row represents script spoken by each character from different seasons and episodes.
+The dataset used in this project was from the following github link: [Hotel Dataset](https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe). This dataset consists of 515,000 customer reviews consisting of 1400+ hotels across Europe.
+
 
 Features included in the datset are:
-* Season
-* Episode
-* Character
-* Line
+* Hotel_Address
+* Review_Date
+* Average_Score
+* Hotel_Name
+* Reviewer_Nationality
+* Negative_Review
+* ReviewTotalNegativeWordCounts
+* Positive_Review
+* ReviewTotalPositiveWordCounts
+* Reviewer_Score
+* TotalNumberofReviewsReviewerHasGiven
+* TotalNumberof_Reviews
+* Tags
+* dayssincereview
+* AdditionalNumberof_Scoring
+* latitude and longitude
 
 ### Tools:
 
-* Data Cleaning + EDA of the data
-* Pre-processing on the script by seasons/chracters(Tokenization, NLTK, TFIDF, Stemming/Lemmetization...etc)
+* Data Cleaning + merging of the reviews
+* Exploratory Data Analysis on the data
+* Pre-processing of the reviews(Tokenization, NLTK, TFIDF, Stemming/Lemmetization...etc)
 * Topic Modeling
 * Recommendation System
 
 ### MVP Goal:
 
-* Tokenized data possibly by different seasons/characters
+* Tokenized data
 * Run Topic modeling
 
 
