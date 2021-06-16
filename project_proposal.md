@@ -10,7 +10,7 @@ various comments by customers.
 
 ### Data Description:
 
-The dataset used in this project was from the following github link: [Hotel Dataset](https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe). This dataset consists of 515,000 customer reviews consisting of 1400+ hotels across Europe.
+The dataset used in this project was from the following github link: [Hotel Dataset](https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe). This dataset consists of 515,000 customer reviews consisting of 1400+ hotels across Europe. Each rows cosnists of one customer review for one hotel.
 
 
 Features included in the datset are:
