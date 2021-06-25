@@ -45,3 +45,4 @@ Topic Modeling
 ![WordCloud](https://github.com/munwonjj/NLP_Project/blob/main/wordcloud.png)
 
 2. pyLDAvis Visualization for Topic 1
+![Visuals](https://github.com/munwonjj/NLP_Project/blob/main/pyLDavis%20visualization.PNG)
